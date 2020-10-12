@@ -28,6 +28,8 @@ a{
 }
 
 
+
+
 /* ヘッダー */
 header{
   width: 100%;
@@ -83,7 +85,7 @@ nav li a:hover{
 
 .about_karuta{
   width: 55%;
-  margin: 115px auto 195px;
+  margin: 100px auto 195px;
 }
 
 .about_karuta p{
@@ -105,7 +107,7 @@ nav li a:hover{
 .tokucho_2{
   display: flex;
   justify-content: center;
-  margin-bottom: 390px;
+  margin-bottom: 280px;
 }
 
 .subtitle-karuta-tokucho{
@@ -141,4 +143,82 @@ nav li a:hover{
 .text_dento{
   width: 85%;
   margin: 25px auto 0;
+}
+
+/* 百人一首とは */
+.hyakunin_toha{
+  position: relative;
+}
+
+.bg_hyakunin{
+  width: 100%;
+  height: 1800px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.title_hyakunin_toha{
+  margin-top: 280px;
+  width: 25%;
+}
+
+.about_hyakunin{
+  width: 55%;
+  margin: 100px auto 165px;
+}
+
+.about_hyakunin p{
+  line-height: 45px;
+}
+
+.subtitle_ajiwau{
+  width: 25%;
+}
+
+.hyakunin_cards{
+  width: 60%;
+  margin: 80px auto 90px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card_box{
+  width: 20%;
+  height: auto;
+  position: relative;
+  margin: 10px;
+}
+
+.card{
+  width: 100%;
+}
+
+.meaning-card{
+  width:157px;
+  height: 200px;
+  border: 8px solid #555B37;
+  background-color: #FBFBF4;
+  border-radius: 26px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  opacity: 0;
+}
+
+.card_box:hover .meaning-card{
+  opacity: 1;
+}
+
+/* ルール */
+.rule{
+  text-align: center;
+}
+
+.title_rule{
+  margin-top: 370px;
+  width: 23%;
 }
