@@ -1,0 +1,144 @@
+/* リセットcss */
+*{
+  padding: 0px;
+  margin: 0px;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body{
+  width: 100%;
+}
+
+p{
+ font-family:sans-serif;
+ font-size: 18px;
+ color: #292522;
+ font-weight: lighter;
+ line-height: 35px;
+ letter-spacing: -1px;
+}
+
+a{
+  text-decoration: none;
+  color: #292522;
+}
+
+
+/* ヘッダー */
+header{
+  width: 100%;
+  text-align: center;
+}
+
+.main_visual{
+  width: 50%;
+  margin-top: 150px;
+  margin-bottom: 65px;
+}
+
+
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 275px;
+}
+
+nav li{
+  -webkit-transform: skewX(150deg);
+  -moz-transform: skewX(150deg);
+  transform: skewX(150deg);
+  padding: 10px 55px;
+  border-right:0.5px solid #29252250;
+  line-height: 5px;
+}
+
+nav li:last-child{
+  border-right: none;
+}
+
+nav li a{
+  display:inline-block;
+  font-size: 16px;
+  transform: skewX(-150deg);
+}
+
+nav li a:hover{
+  color:#84322A;
+}
+
+/* かるたとは */
+
+.karuta{
+  text-align: center;
+}
+
+.title_karuta_toha{
+  width: 20%;
+}
+
+.about_karuta{
+  width: 55%;
+  margin: 115px auto 195px;
+}
+
+.about_karuta p{
+  line-height: 45px;
+}
+
+.tokuchi_text{
+  width: 30%;
+}
+
+
+
+.tokucho_1{
+  display: flex;
+  justify-content: center;
+  margin-bottom:180Px;
+}
+
+.tokucho_2{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 390px;
+}
+
+.subtitle-karuta-tokucho{
+  width: 17%;
+  margin-bottom: 130px;
+}
+
+.image_ronyaku{
+  width: 30%;
+  margin-right: 10px;
+}
+
+.subtitle_ronyaku{
+  width: 65%;
+  padding-top: 25px;
+}
+
+.text_ronyaku{
+  width: 80%;
+  margin: 25px auto 0;
+}
+
+.image_dento{
+  width: 30%;
+  margin-left: 10px;
+}
+
+.subtitle_dento{
+  width: 70%;
+  padding-top: 25px;
+}
+
+.text_dento{
+  width: 85%;
+  margin: 25px auto 0;
+}
