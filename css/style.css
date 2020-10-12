@@ -116,8 +116,8 @@ nav li a:hover{
 }
 
 .image_ronyaku{
-  width: 30%;
-  margin-right: 10px;
+  width: 33%;
+  margin-right: 15px;
 }
 
 .subtitle_ronyaku{
@@ -131,8 +131,8 @@ nav li a:hover{
 }
 
 .image_dento{
-  width: 30%;
-  margin-left: 10px;
+  width: 33%;
+  margin-left: 20px;
 }
 
 .subtitle_dento{
@@ -148,11 +148,12 @@ nav li a:hover{
 /* 百人一首とは */
 .hyakunin_toha{
   position: relative;
+  text-align: center;
 }
 
 .bg_hyakunin{
   width: 100%;
-  height: 1800px;
+  height: 1850px;
   position: absolute;
   top: 0;
   left: 0;
@@ -160,7 +161,7 @@ nav li a:hover{
 }
 
 .title_hyakunin_toha{
-  margin-top: 280px;
+  margin-top: 270px;
   width: 25%;
 }
 
@@ -178,8 +179,8 @@ nav li a:hover{
 }
 
 .hyakunin_cards{
-  width: 60%;
-  margin: 80px auto 90px;
+  width: 65%;
+  margin: 80px auto 75px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -189,7 +190,7 @@ nav li a:hover{
   width: 20%;
   height: auto;
   position: relative;
-  margin: 10px;
+  margin: 15px;
 }
 
 .card{
@@ -197,8 +198,8 @@ nav li a:hover{
 }
 
 .meaning-card{
-  width:157px;
-  height: 200px;
+  width:170px;
+  height: 216px;
   border: 8px solid #555B37;
   background-color: #FBFBF4;
   border-radius: 26px;
@@ -218,7 +219,211 @@ nav li a:hover{
   text-align: center;
 }
 
+.rule p{
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+}
+
 .title_rule{
-  margin-top: 370px;
-  width: 23%;
+  width: 25%;
+  display: inline-block;
+  margin: 350px auto 155px
+}
+
+.subtitle_kiso{
+  width: 12%;
+}
+
+.kiso_boxes{
+  display: flex;
+  justify-content: center;
+}
+
+.kiso_box{
+  width: 20%;
+  margin:  45px 10px 80px;
+}
+
+.kiso_text{
+  width: 54%;
+  margin: 10px auto 50px;
+}
+
+.image_kiso{
+  width: 76%;
+  padding: 0px 30px 0px;
+}
+
+.subtitle_asobi{
+   width: 12%;
+}
+
+.asobi_boxes{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 35px auto 40px;
+}
+
+.asobi_box{
+  width: 30%;
+  margin: 0 10px 5px;
+}
+
+.asobi_text{
+  width: 60%;
+  margin: 15px auto 60px;
+}
+
+.image_asobi{
+  width: 75%;
+  padding: 0px 30px 0px;
+}
+
+.rule a{
+  font-size: 12px;
+  border: 3px solid #666D4C;
+  border-radius: 43px;
+  padding: 18px 33px;
+}
+
+.rule a:hover{
+  color:#84322A;
+}
+
+/* ステップ */
+.step{
+  position: relative;
+  margin-top: 180px;
+  text-align: center;
+}
+
+.bg_step{
+  width: 100%;
+  height: 2200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
+
+.step_text{
+  width: 40%;
+}
+
+.step_img{
+  width: 25%;
+}
+
+.title_step{
+  margin-top: 220px;
+  width: 35%;
+}
+
+.step_box{
+  display: flex;
+  margin-top: 130px;
+  justify-content: center;
+}
+
+.subtitle_step{
+  width: 51%;
+  display: block;
+  margin: 0 auto;
+}
+
+.step_flame{
+  display: block;
+  width: 80%;
+  margin: 20px auto;
+}
+
+/* .flame_box{
+  position: relative;
+} */
+
+
+.step_describe{
+  width: 50%;
+  border: 1px solid #fcfcfa;
+  background-color: #fcfcfa;
+  padding: 85px 90px;
+  border-radius: 60%;
+  -webkit-transform: skewX(10deg);
+  -moz-transform: skewX(10deg);
+  transform: skewX(10deg);
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.step_describe p{
+  font-size: 16px;
+  line-height: 35px;
+  transform: skewX(-10deg);
+}
+
+.step_describe_practice{
+  width: 50%;
+  border: 1px solid #fcfcfa;
+  background-color: #fcfcfa;
+  padding: 100px 90px;
+  border-radius: 60%;
+  -webkit-transform: skewX(10deg);
+  -moz-transform: skewX(10deg);
+  transform: skewX(10deg);
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.step_describe_practice p{
+  font-size: 16px;
+  line-height: 35px;
+  transform: skewX(-10deg);
+}
+
+.step_illust1{
+  width: 45%;
+  margin-top: 150px;
+}
+
+.step_illust2{
+  width: 50%;
+  margin-top: 150px;
+}
+
+.tensen1{
+  position: absolute;
+  top: 800px;
+  left: 850px;
+  width: 10%;
+  z-index: 3;
+}
+
+.tensen2{
+  position: absolute;
+  top: 1450px;
+  left: 850px;
+  width: 10%;
+  z-index: 3;
+}
+
+.step_comment{
+  padding-top: 100px;
+}
+
+footer{
+  text-align: center;
+  margin-top: 220px;
+  margin-bottom: 35px;
+}
+
+footer p{
+  line-height: 10px;
+  font-size: 20px;
+}
+
+footer span{
+  font-size: 19px;
 }
