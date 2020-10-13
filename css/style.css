@@ -27,6 +27,21 @@ a{
   color: #292522;
 }
 
+@media screen and (max-width:479px){
+  body{
+    width: 100%;
+  }
+
+  br{
+    display: none;
+  }
+
+  p{
+    font-size: 12px;
+    line-height: 25px;
+  }
+}
+
 
 
 
@@ -40,6 +55,10 @@ header{
   width: 50%;
   margin-top: 150px;
   margin-bottom: 65px;
+}
+
+.down{
+  display: none;
 }
 
 
@@ -73,6 +92,29 @@ nav li a:hover{
   color:#84322A;
 }
 
+@media screen and (max-width:479px){
+    header{
+      width: 100%;
+      text-align: center;
+    }
+
+    nav{
+      display: none;
+    }
+
+    .main_visual{
+      width: 80%;
+      margin: 240px auto 185px;
+    }
+
+    .down{
+      width: 7%;
+      display: block;
+      margin:0 auto 70px;
+
+    }
+}
+
 /* かるたとは */
 
 .karuta{
@@ -80,6 +122,7 @@ nav li a:hover{
 }
 
 .title_karuta_toha{
+  padding-top: 15px;
   width: 20%;
 }
 
@@ -144,6 +187,85 @@ nav li a:hover{
   width: 85%;
   margin: 25px auto 0;
 }
+
+.responsive_image_dento{
+  display: none;
+}
+
+@media screen and (max-width:479px){
+  .karuta{
+    width: 100%;
+    margin: 40px auto 0px;
+    text-align: center;
+  }
+
+  .title_karuta_toha{
+    width: 40%;
+  }
+
+  .about_karuta{
+    width: 60%;
+    margin: 50px auto 95px;
+  }
+
+  .about_karuta p{
+    line-height: 23px;
+  }
+
+   .subtitle-karuta-tokucho{
+    width: 40%;
+    margin-bottom: 50px;
+  }
+
+  .tokucho_text{
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .tokucho_1{
+    display: block;
+    margin-bottom:60Px;
+  }
+
+  .tokucho_2{
+    display: block;
+    margin-bottom: 60px;
+  }
+
+  .subtitle_ronyaku{
+    width: 55%;
+    padding-top: 25px;
+  }
+
+   .image_ronyaku{
+    width: 65%;
+  }
+
+  .text_ronyaku{
+    width: 75%;
+    margin: 25px auto 0;
+  }
+
+  .image_dento{
+    display: none;
+  }
+
+  .responsive_image_dento{
+    display: block;
+    width: 65%;
+    margin: 10px auto 20px;
+  }
+
+  .subtitle_dento{
+    width: 65%;
+  }
+
+  .text_dento{
+    width: 80%;
+    margin: 25px auto 0;
+  }
+}
+
 
 /* 百人一首とは */
 .hyakunin_toha{
@@ -210,8 +332,61 @@ nav li a:hover{
   opacity: 0;
 }
 
+.meaning{
+  width: 110px;
+  margin: 50px auto;
+}
+
+.meaning2{
+  width: 135px;
+  margin: 50px auto;
+}
+
+.meaning3{
+  width: 135px;
+  margin: 35px auto;
+}
+
+.meaning-card p{
+  font-size: 15px;
+  line-height: 25px;
+}
+
 .card_box:hover .meaning-card{
   opacity: 1;
+}
+
+@media screen and (max-width:479px){
+  .bg_hyakunin{
+    width: 100%;
+    height: 500px;
+  }
+
+  .title_hyakunin_toha{
+    margin-top: 80px;
+    width: 50%;
+  }
+
+  .about_hyakunin{
+    width: 60%;
+    margin: 50px auto 95px;
+  }
+
+  .about_hyakunin p{
+    line-height: 23px;
+  }
+
+  .subtitle_ajiwau{
+    display: none;
+  }
+
+  .hyakunin_cards{
+    display: none;
+  }
+
+  .hyakunin_comment{
+    display: none;
+  }
 }
 
 /* ルール */
@@ -293,6 +468,85 @@ nav li a:hover{
   color:#84322A;
 }
 
+@media screen and (max-width:479px){
+  .rule{
+    text-align: center;
+  }
+
+  .title_rule{
+    width: 55%;
+    display: inline-block;
+    margin: 65px auto 80px
+  }
+
+  .rule p{
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+  }
+
+  .subtitle_kiso{
+    width: 27%;
+  }
+
+  .kiso_boxes{
+    display: block;
+  }
+
+  .kiso_box{
+    width: 60%;
+    margin:  45px auto 30px;
+  }
+
+  .kiso_text{
+    width: 70%;
+    margin: 10px auto 50px;
+  }
+
+  .image_kiso{
+    width: 76%;
+    padding: 0px 30px 0px;
+  }
+
+  .subtitle_asobi{
+    width: 27%;
+    margin-top: 10px;
+  }
+
+  .asobi_boxes{
+    display: block;
+    width:  100%;
+    margin-bottom: 10px;
+  }
+
+  .asobi_box{
+    width: 70%;
+    margin: 25px 10px 5px;
+    margin: 0 auto;
+  }
+
+  .asobi_text{
+    width: 63%;
+    margin: 15px auto 60px;
+  }
+
+  .image_asobi{
+    width: 75%;
+  }
+
+  .rule a{
+    font-size: 12px;
+    border: 3px solid #666D4C;
+    border-radius: 43px;
+    padding: 20px 26px;
+    margin-bottom: 10px;
+  }
+
+  .rule a:hover{
+    color:#84322A;
+  }
+}
+
 /* ステップ */
 .step{
   position: relative;
@@ -324,7 +578,7 @@ nav li a:hover{
 
 .step_box{
   display: flex;
-  margin-top: 130px;
+  margin-top: 120px;
   justify-content: center;
 }
 
@@ -355,7 +609,7 @@ nav li a:hover{
   -moz-transform: skewX(10deg);
   transform: skewX(10deg);
   margin-top: 30px;
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .step_describe p{
@@ -364,7 +618,7 @@ nav li a:hover{
   transform: skewX(-10deg);
 }
 
-.step_describe_practice{
+.step_describe_3{
   width: 50%;
   border: 1px solid #fcfcfa;
   background-color: #fcfcfa;
@@ -374,10 +628,10 @@ nav li a:hover{
   -moz-transform: skewX(10deg);
   transform: skewX(10deg);
   margin-top: 30px;
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
-.step_describe_practice p{
+.step_describe_3 p{
   font-size: 16px;
   line-height: 35px;
   transform: skewX(-10deg);
@@ -390,6 +644,11 @@ nav li a:hover{
 
 .step_illust2{
   width: 50%;
+  margin-top: 150px;
+}
+
+.step_illust3{
+  width: 45%;
   margin-top: 150px;
 }
 
@@ -413,10 +672,128 @@ nav li a:hover{
   padding-top: 100px;
 }
 
+@media screen and (max-width:479px){
+  .step{
+    margin-top: 100px;
+    position: relative;
+  }
+
+    .title_step{
+    margin-top: 130px;
+    margin-bottom: -20px;
+    width: 70%;
+  }
+
+  .bg_step{
+    width: 100%;
+    height: 1620px;
+  }
+
+
+  .step_text{
+    width: 70%;
+    margin-left: 5%;
+  }
+
+  .step_img{
+    width: 25%;
+  }
+
+
+  .step_box{
+    display: block;
+    margin-top: 130px;
+    justify-content: center;
+  }
+
+  .subtitle_step{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .step_flame{
+    display: block;
+    width: 80%;
+  }
+
+
+  .step_describe{
+    width: 65%;
+    padding: 45px 60px;
+    margin-bottom: 40px;
+  }
+
+  .step_describe p{
+    font-size: 13px;
+    line-height: 25px;
+  }
+
+
+  .step_describe_3{
+    width: 65%;
+    padding: 55px 60px;
+  }
+
+  .step_describe_3 p{
+    font-size: 13px;
+    line-height: 25px;
+  }
+
+  .step_illust1{
+    width: 30%;
+    position: absolute;
+    top:380px;
+    left: 220px;
+     z-index: 2;
+  }
+
+  .step_illust2{
+    width: 35%;
+    margin-top: 150px;
+    position: absolute;
+    top:750px;
+    left: 28px;
+    z-index: 2;
+  }
+
+  .step_illust3{
+    width: 30%;
+    position: absolute;
+    top:1180px;
+    left: 220px;
+  }
+
+  .tensen1{
+    position: absolute;
+    top: 800px;
+    left: 850px;
+    width: 10%;
+    z-index: 3;
+    display: none;
+  }
+
+  .tensen2{
+    position: absolute;
+    top: 1450px;
+    left: 850px;
+    width: 10%;
+    z-index: 3;
+    display: none;
+  }
+
+  .step_comment{
+    padding-top: 100px;
+  }
+}
+
+/* フッター */
+
 footer{
+  width: 100%;
   text-align: center;
-  margin-top: 220px;
-  margin-bottom: 30px;
+  margin-top: 250px;
+  margin-bottom: 25px;
 }
 
 footer p{
@@ -426,4 +803,46 @@ footer p{
 
 footer span{
   font-size: 19px;
+}
+
+@media screen and (max-width:479px){
+  footer{
+    width: 100%;
+    margin-top: 150px;
+    margin-bottom: 20px;
+  }
+
+  footer p{
+    line-height: 10px;
+    font-size: 15px;
+  }
+
+  footer span{
+    font-size: 15px;
+  }
+}
+
+/* フワッと */
+
+.fuwatAnime {
+ -webkit-animation-fill-mode:both;
+ -ms-animation-fill-mode:both;
+ animation-fill-mode:both;
+ -webkit-animation-duration:1.5s;
+ -ms-animation-duration:1.5s;
+ animation-duration:1.5s;
+ -webkit-animation-name: fuwatAnime;
+ -ms-animation-name: fuwatAnime;
+ animation-name: fuwatAnime;
+ visibility: visible !important;
+}
+
+@-webkit-keyframes fuwatAnime {
+ 0% { opacity: 0; -webkit-transform: translateY(-20px); }
+ 100% { opacity: 1; -webkit-transform: translateY(0); }
+}
+
+@keyframes fuwatAnime {
+ 0% { opacity: 0; -webkit-transform: translateY(-20px); -ms-transform: translateY(-20px); transform: translateY(-20px); }
+ 100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
 }

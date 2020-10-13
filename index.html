@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Kosugi&display=swap" rel="stylesheet">
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <title>Karuta Guide</title>
 </head>
 <body>
@@ -18,8 +18,9 @@
         <li><a href="#rule">競技かるたのルール</a></li>
       </ul>
     </nav>
+    <a href="#karuta_toha"><img src="images/down.png" class="down" alt=""></a>
   </header>
-  <div class="karuta">
+  <div class="karuta fuwat">
     <img src="images/title_karuta_toha.png" class="title_karuta_toha" id="karuta_toha" alt="">
     <div class="about_karuta">
       <p>競技かるたとは、百人一首を使ったゲームのことです。百人一首と聞くと、<br>優雅な遊びをイメージする人も多いかもしれませんが、実際の競技かるたは、0.1秒を争う<br>スポーツで、その激しさから『畳の上の格闘技』と言われることもあります。</p>
@@ -33,6 +34,7 @@
       </div>
     </div>
     <div class="tokucho_2">
+      <img src="images/image_dento_bunka.png" alt="" class="responsive_image_dento">
       <div class="tokucho_text">
         <img src="images/subtitle_dento_bunka.png" alt="" class="subtitle_dento">
         <p class="text_dento">小倉百人一首を使用するので、自然と日本文化に触れることが出来ます。また、勝負の中でも相手への礼儀や「譲り合いの精神」を重んじる日本的な考え方が用いられています。</p>
@@ -43,7 +45,7 @@
 
   <div class="hyakunin_toha" id="hyakunin_toha">
     <img src="images/bg_hyakunin.png" alt="" class="bg_hyakunin">
-    <div class="hyakunin_contents">
+    <div class="hyakunin_contents fuwat">
       <img src="images/title_hyakunin_toha.png" alt="" class="title_hyakunin_toha">
       <div class="about_hyakunin">
         <p>百人一首とは、飛鳥時代から鎌倉時代までの100首の和歌の歌集です。<br>藤原定家という鎌倉時代を代表する歌人が、優れた和歌を選んで作られたと言われています。<br>百人一首は春、夏、秋、冬、恋の5つのテーマで分けることが出来ます。中でも恋をテーマと<br>した歌は43首もあり、多様な恋心が美しい言葉で巧みに綴られています。</p>
@@ -56,51 +58,68 @@
         <div class="card_box">
           <img src="images/card2.png" class="card" alt="">
           <div class="meaning-card">
-            <p>いいいいいい</p>
+            <div class="meaning">
+              <p>春が過ぎて、夏がやってきました。真っ白な衣が干してある天の香具山に。</p>
+            </div>
           </div>
         </div>
         <div class="card_box">
           <img src="images/card3.png" class="card" alt="">
           <div class="meaning-card">
-            <p>うううううう</p>
+            <div class="meaning2">
+              <p>恋心を隠してきたのに、表情に出てしまったみたい。「考え事ですか？」と尋ねられるほどに。</p>
+            </div>
           </div>
         </div>
         <div class="card_box">
           <img src="images/card4.png" class="card" alt="">
           <div class="meaning-card">
-            <p>うううううう</p>
+            <div class="meaning2">
+              <p>あなたのために春の野に出て若菜を摘みます。私の袖には雪が降りかかってくるのです。</p>
+            </div>
           </div>
         </div>
         <div class="card_box">
           <img src="images/card5.png" class="card" alt="">
           <div class="meaning-card">
-            <p>うううううう</p>
+            <div class="meaning2">
+              <p>こんなことは神の時代にも聞いたことがない。龍田川の水を紅葉が真っ赤に染めているとは。</p>
+            </div>
           </div>
         </div>
         <div class="card_box">
           <img src="images/card6.png" class="card" alt="">
           <div class="meaning-card">
-            <p>うううううう</p>
+            <div class="meaning2">
+              <p>そっけなく見える有明の月のように冷たかったあなたとの別れ以来、夜明けほど辛いものはない。</p>
+            </div>
           </div>
         </div>
         <div class="card_box">
           <img src="images/card7.png" class="card" alt="">
           <div class="meaning-card">
-            <p>うううううう</p>
+            <div class="meaning2">
+              <p>日の光がこんなにものどかな春の日に、どうして桜は落ち着いた心なく散っていくのだろう。 </p>
+            </div>
           </div>
         </div>
         <div class="card_box">
           <img src="images/card8.png" class="card" alt="">
           <div class="meaning-card">
-            <p>うううううう</p>
+            <div class="meaning3">
+              <p>夏の夜は、まだ夕方だと思っていたらすぐに明けてしまう。いったい月は、雲のどこに宿を取っているのだろう。
+                    </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <p>他の歌の意味も調べてみよう！</p>
+    <p class="hyakunin_comment">他の歌の意味も調べてみよう！</p>
   </div>
 
-  <div class="rule" id="rule">
+
+
+  <div class="rule fuwat" id="rule">
     <img src="images/title_rule.png" class="title_rule" alt="">
     <div class="kiso_contents">
       <img src="images/subtitle_kiso.png" class="subtitle_kiso" alt="">
@@ -171,48 +190,68 @@
 
   <div class="step">
     <img src="images/bg_step.png" alt="" class="bg_step">
-    <div class="step_contents">
+    <div class="fuwat">
       <img src="images/title_step.png" class="title_step" alt="">
-    </div>
-    <img src="images/tensen1.png" alt="" class="tensen1">
-    <img src="images/tensen2.png" alt="" class="tensen2">
-    <div class="step_box">
-      <div class="step_text">
-        <img src="images/subtitle_step1.png" class="subtitle_step" alt="">
-        <div class="step_describe">
-          <p>競技かるたを題材にした『ちはやふる』を読むと競技かるたのことを沢山知ることが出来ます。</p>
+      <img src="images/tensen1.png" alt="" class="tensen1">
+      <img src="images/tensen2.png" alt="" class="tensen2">
+      <div class="step_box">
+        <div class="step_text">
+          <img src="images/subtitle_step1.png" class="subtitle_step" alt="">
+          <div class="step_describe">
+            <p>競技かるたを題材にした『ちはやふる』を読むと競技かるたのことを沢山知ることが出来ます。</p>
+          </div>
+        </div>
+        <div class="step_img">
+          <img src="images/step_book.png" class="step_illust1" alt="">
         </div>
       </div>
-      <div class="step_img">
-        <img src="images/step_book.png" class="step_illust1" alt="">
-      </div>
-    </div>
-    <div class="step_box">
-      <div class="step_img">
-        <img src="images/step_karuta_kai.png" class="step_illust2" alt="">
-      </div>
-      <div class="step_text">
-        <img src="images/subtitle_step2.png" class="subtitle_step" alt="">
-        <div class="step_describe">
-          <p>かるた会や部活には、練習できる環境が整っています。近くのかるた会に連絡を取ってみましょう。</p>
+      <div class="step_box">
+        <div class="step_img">
+          <img src="images/step_karuta_kai.png" class="step_illust2" alt="">
+        </div>
+        <div class="step_text step_text_2">
+          <img src="images/subtitle_step2.png" class="subtitle_step" alt="">
+          <div class="step_describe">
+            <p>かるた会や部活には、練習できる環境が整っています。近くのかるた会に連絡を取ってみましょう。</p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="step_box">
-      <div class="step_text">
-        <img src="images/subtitle_step3.png" class="subtitle_step" alt="">
-        <div class="step_describe_practice">
-          <p>上の句と下の句の組み合わせが分からないと試合が出来ません。札を覚えましょう。</p>
+      <div class="step_box">
+        <div class="step_text">
+          <img src="images/subtitle_step3.png" class="subtitle_step" alt="">
+          <div class="step_describe_3">
+            <p>上の句と下の句の組み合わせが分からないと試合が出来ません。札を覚えましょう。</p>
+          </div>
+        </div>
+        <div class="step_img">
+          <img src="images/step_karuta.png" class="step_illust3" alt="">
         </div>
       </div>
-      <div class="step_img">
-        <img src="images/step_karuta.png" class="step_illust1" alt="">
-      </div>
+      <p class="step_comment">是非競技かるたをやってみてください！</p>
+
     </div>
-    <p class="step_comment">是非競技かるたをやってみてください！</p>
+
   </div>
+
   <footer>
     <p>&copy; <span>karuta-guide</span></p>
   </footer>
+
+  <script>
+    $(document).ready(function () {
+      $('.fuwat').css('visibility', 'hidden');
+      $(window).scroll(function () {
+        var windowHeight = $(window).height(),
+          topWindow = $(window).scrollTop();
+        $('.fuwat').each(function () {
+          var objectPosition = $(this).offset().top;
+          if (topWindow > objectPosition - windowHeight + 300) {
+            $(this).addClass("fuwatAnime");
+          }
+        });
+      });
+    });
+  </script>
+
 </body>
 </html>
